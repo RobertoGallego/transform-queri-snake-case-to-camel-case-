@@ -1,6 +1,6 @@
 import { camelCase, snakeCase } from 'lodash'
 
-import { getSessionStorageValue } from '@procsea/common/utils'
+import { getSessionStorageValue } from '@common/utils'
 
 import { ERROR_FAIL_TO_RETRIEVE_CURRENT_MEMBERSHIP_FROM_SESSION_STORAGE } from 'src/constants/constants'
 import { isObject } from 'src/utils/lang'
